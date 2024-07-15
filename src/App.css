@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.outer-container {
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items:center;
+  height:650px;
+  width:100%;
+  background-image: url('./images/shower_rain.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.inner-container {
+  height: 400px;
+  width: 300px;
+  background-image: url('./images/BG.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  
+  text-align: center;
+  color: #fff; /* Change text color to white for better visibility */
+}
+
+.inner-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+}
+.inner-container input {
+  width:180;
+  height:35;
+  padding:7px;
+  margin-right: 8px;
+  margin-left:4px;
+  background-color: rgb(160, 153, 153);
+  color:rgb(80, 79, 79);
+  border-style: none;
+  border-radius: 6%;
+}
+.inner-container button {
+  width:90;
+  padding:5px 20px;
+  height:35;
+  margin-left: 10px;
+  background-color: black;
+  color:#FFD700;
+  border-style: solid;
+  border-color:rgba(yellow , 0.6);
+  border-radius: 2px;
+}
+.inner-container button:hover{
+  border-color: #FFD700;
+  cursor:pointer
+}
+/* .inner-container li{
+  color:white;
+  margin:3px 10px;
+  text-transform:none;
+
+  text-align: left;
+  font-size: 15px;
+  list-style-type:none;
+  margin-right:100px;
+  
+} */
+.inner-container li {
   color: white;
+  margin: 3px 2px;
+  text-transform: none;
+  text-align: left;
+  font-size: 15px;
+  list-style-type: none;
+  position: relative; /* Add position relative for positioning */
+}
+/* .todo_style div{
+  border:2px solid black;
+   display:inline;
+   display:flex;
+   justify-content:none;
+   align-items: center;
+   margin-left:10px;
+   width:100%;
+   border-radius: 3px;
+} */
+.todo_style div {  
+  display: flex;
+  /* Space between to push items apart */
+  align-items: center;
+  margin-left: 15px;
+  width: calc(100% - 20px); /* Adjust width to account for margins */
+  border-radius: 3px;
+  padding: 3px; /* Add some padding for spacing */
+}
+.icon {
+  color:yellow;
+  margin: 4px 0px;
+  text-align: end;
+  position: absolute; /* Position absolute to place in corner */
+  right: 460px; /* Adjust right to position */
+  transition: 0.5s;
+}
+.icon:hover {
+  color:rgb(202, 91, 91);
+  cursor:pointer
+}
+.icon1 {
+  color:yellow;
+  margin: 4px 0px;
+  text-align: end;
+  position: absolute; /* Position absolute to place in corner */
+  right: 490px; /* Adjust right to position */
+}
+.icon1:hover {
+  color:rgb(202, 91, 91);
+  cursor:pointer
+}
+.checkbox {
+  transform: scale(1.5); /* Adjust the scale as needed */
+  margin-left: 4px;
+  color: yellow;
+  }
+.checkbox:hover {
+  cursor:pointer
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -16,7 +16,7 @@
 }
 .inner-container {
   height: 400px;
-  width: 300px;
+  width: 290px;
   background-image: url('./images/BG.png');
   background-size: cover;
   background-position: center;
@@ -89,22 +89,30 @@
    border-radius: 3px;
 } */
 .todo_style div {  
-  display: flex;
+  display: flex; 
   /* Space between to push items apart */
   align-items: center;
-  margin-left: 15px;
-  width: calc(100% - 20px); /* Adjust width to account for margins */
+  margin-left: 12px;
+ /* Adjust width to account for margins */
   border-radius: 3px;
   padding: 3px; /* Add some padding for spacing */
 }
+.todo_style {
+  width:280px;
+  display: flex;
+  justify-content: space-between;
+}
+.icons-container {
+  padding:0px;
+
+}
 .icon {
   color:yellow;
-  margin: 4px 0px;
-  text-align: end;
-  position: absolute; /* Position absolute to place in corner */
-  right: 460px; /* Adjust right to position */
+  margin: 4px 0px; 
+  
   transition: 0.5s;
 }
+
 .icon:hover {
   color:rgb(202, 91, 91);
   cursor:pointer
@@ -112,9 +120,9 @@
 .icon1 {
   color:yellow;
   margin: 4px 0px;
-  text-align: end;
-  position: absolute; /* Position absolute to place in corner */
-  right: 490px; /* Adjust right to position */
+  /* text-align: end;
+  position: absolute; 
+  right: 490px; */
 }
 .icon1:hover {
   color:rgb(202, 91, 91);
@@ -122,10 +130,17 @@
 }
 .checkbox {
   transform: scale(1.5); /* Adjust the scale as needed */
-  margin-left: 4px;
+
   color: yellow;
   }
 .checkbox:hover {
   cursor:pointer
 }
+/* .outer-div-box {
+  display:flex;
+  gap:70px;
+  align-items: center;
+} */
+
+
 

@@ -65,7 +65,8 @@ export default function ToDoListmainpage({ text, onSelect, id }) {
   return (
     <>
       <div className='todo_style'>
-        <div>
+        {/* <div className='outer-div-box'> */}
+        <div className='checkbox-input-container'>
           <input
             className="checkbox"
             type="checkbox"
@@ -78,13 +79,16 @@ export default function ToDoListmainpage({ text, onSelect, id }) {
             }}>
             {taskText}
           </li>
-          <Tooltip title="Edit">
-          <EditNoteIcon className='icon1' onClick={toggleModal} />
-          </Tooltip>
-          <Tooltip title="Delete">
-          <CancelIcon className='icon' onClick={() => onSelect(id)} />
-          </Tooltip>
-        </div>
+          </div>
+          <div className='icons-container'>
+              <Tooltip title="Edit">
+                  <EditNoteIcon className='icon1' onClick={toggleModal} />
+              </Tooltip>
+              <Tooltip title="Delete">
+                   <CancelIcon className='icon' onClick={() => onSelect(id)} />
+              </Tooltip>
+          </div>
+        {/* </div> */}
       </div>
       <Modal
         show={editModal}

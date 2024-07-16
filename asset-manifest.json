@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Todo-list-byreact.js/static/css/main.2a7c443d.css",
-    "main.js": "/Todo-list-byreact.js/static/js/main.75fd94db.js",
+    "main.css": "/Todo-list-byreact.js/static/css/main.0a4904f2.css",
+    "main.js": "/Todo-list-byreact.js/static/js/main.963156c8.js",
     "static/js/453.9153dacf.chunk.js": "/Todo-list-byreact.js/static/js/453.9153dacf.chunk.js",
     "static/media/shower_rain.jpg": "/Todo-list-byreact.js/static/media/shower_rain.ab3adea25e4450339505.jpg",
     "static/media/BG.png": "/Todo-list-byreact.js/static/media/BG.a73a635349b37eca029b.png",
     "index.html": "/Todo-list-byreact.js/index.html",
-    "main.2a7c443d.css.map": "/Todo-list-byreact.js/static/css/main.2a7c443d.css.map",
-    "main.75fd94db.js.map": "/Todo-list-byreact.js/static/js/main.75fd94db.js.map",
+    "main.0a4904f2.css.map": "/Todo-list-byreact.js/static/css/main.0a4904f2.css.map",
+    "main.963156c8.js.map": "/Todo-list-byreact.js/static/js/main.963156c8.js.map",
     "453.9153dacf.chunk.js.map": "/Todo-list-byreact.js/static/js/453.9153dacf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a7c443d.css",
-    "static/js/main.75fd94db.js"
+    "static/css/main.0a4904f2.css",
+    "static/js/main.963156c8.js"
   ]
 }
